@@ -7,12 +7,13 @@ var WeekendsCalculatorApp = function() {
 
     /* CONFIG */
     self.setupVariables = function() {
-/*
+
         self.ipaddress = null
         self.port      = process.env.PORT
-*/
+/*
         self.ipaddress = 'localhost'
         self.port      = 8082
+*/
     };
 
     self.terminator = function(sig){
